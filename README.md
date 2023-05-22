@@ -94,7 +94,7 @@
 
 Test the React Native project with [Expo Go](https://expo.dev/), using the [React Navigation](https://reactnavigation.org/) components as main templates for the development framework.
 
-[![Product Name Screen Shot1][product-screenshot1]]
+![Product Name Screen Shot1][product-screenshot1]
 
 * Latest version of node.js 
 * Installing projects for React Native with Expo
@@ -103,9 +103,13 @@ Test the React Native project with [Expo Go](https://expo.dev/), using the [Reac
 ```
 * You should implement DRY principles to the rest of your life :smile:
 
+![Product Name Screen Shot3][product-screenshot3]
+
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-### Built With
+### Built With Expo
+
+![Product Name Screen Shot2][product-screenshot2]
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -193,8 +197,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/freddr-ruiz-90932b202/
 [product-screenshot1]: img/23423456.png
-[product-screenshot2]: img/263673729865.png
-[product-screenshot3]: images/0501c7cb-74eb-4c0d-bc6f-4634bd0bf709.png
+[product-screenshot2]: img/134262741253176.png
+[product-screenshot3]: images/263673729865.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
