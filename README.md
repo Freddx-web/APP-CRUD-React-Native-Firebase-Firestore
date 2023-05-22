@@ -94,7 +94,7 @@
 
 Test the React Native project with [Expo Go](https://expo.dev/), using the [React Navigation](https://reactnavigation.org/) components as main templates for the development framework.
 
-[![Product Name Screen Shot1]]
+[![Product Name Screen Shot1][product-screenshot1]]
 
 * Latest version of node.js 
 * Installing projects for React Native with Expo
@@ -192,7 +192,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/freddr-ruiz-90932b202/
-[product-screenshot]: img/23423456.png
+[product-screenshot1]: img/23423456.png
 [product-screenshot2]: img/263673729865.png
 [product-screenshot3]: images/0501c7cb-74eb-4c0d-bc6f-4634bd0bf709.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
