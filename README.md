@@ -77,8 +77,20 @@ Test the React Native project with [Expo Go](https://expo.dev/), using the [Reac
   npx create-expo-app app-test-react-native
 ```
 * You should implement DRY principles to the rest of your life :smile:
-* 
+
+### Backend and database credentials Firebase
+
 ![Product Name Screen Shot3][product-screenshot3]
+
+* file `.env`. Add data for firebase 
+```sh 
+  API_KEY=AIzaSyAwlrn9-vlpgMg2UOKooQmcNLJE_YUcSg8
+  AUTH_DOMAIN=tests-e7548.firebaseapp.com
+  PROJECT_ID=tests-e7548
+  STORAGE_BUCKET=tests-e7548.appspot.com
+  MESSAGING_SENDER_ID=337426525540
+  APP_ID=1:337426525540:web:ea72b08d4fa64d7b445e71
+```
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
