@@ -42,7 +42,7 @@
     <img src="https://img.icons8.com/fluency/144/null/iphone14-pro.png"/>
   </a>
   <a href="#">
-    <img src="https://img.icons8.com/fluency/144/null/node.png"/>
+    <img src="https://img.icons8.com/fluency/144/null/android.png"/>
   </a>
 
   <h3 align="center">App <b>React Native</b> with <b>Expo</b> adn <b>Firebase</b></h3>
