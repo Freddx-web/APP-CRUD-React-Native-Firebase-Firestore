@@ -69,13 +69,12 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-This is a test project of the [React Native](https://reactnative.dev/) CRUD model, and it uses the [Expo Go](https://expo.dev/) framework for rendering, the backend is from Firebase using your credentials and access keys for said data
+This is a test project of the [React Native](https://reactnative.dev/) CRUD product model, and it uses the [Expo Go](https://expo.dev/) framework for rendering, the backend is from Firebase using your credentials and access keys for said data
 
-functioning:
+Requirements:
 
 * Latest version of [NodeJS](https://nodejs.org/es)🍃🍃
-* Installing projects for [React Native](https://reactnative.dev/)⚛️ with Expo 🔼
-* 
+* Installing projects for [React Native](https://reactnative.dev/)⚛️ with [Expo Go](https://expo.dev/)🔼
 
 ### Built With Expo
 
@@ -96,7 +95,7 @@ It works with
 
 _To test this app, you need to create a new project in Expo Go With the following command._ 
 
-1. Installing NPM dependencies projects for [React Native](https://reactnative.dev/)⚛️ with Expo 🔼
+1. Installing NPM dependencies projects for [React Native](https://reactnative.dev/)⚛️ with [Expo Go](https://expo.dev/)🔼
    ```sh
    npx create-expo-app app-test-react
    ```
@@ -104,7 +103,7 @@ _To test this app, you need to create a new project in Expo Go With the followin
    ```sh
    cd app-test-react
    ```
-2. Install Firebase
+2. Install Firebase (BackEnd)
    ```sh
    npm install firebase
    ```
@@ -112,7 +111,7 @@ _To test this app, you need to create a new project in Expo Go With the followin
    ```sh
    npm install expo-constants expo-status-bar react-native-gesture-handler react-native-safe-area-context react-native-screens react-native-svg rn-emoji-keyboard 
    ```
-4. Install NPM [React Navigation](https://reactnavigation.org/) dependencies 
+4. Install NPM [ReactNavigation](https://reactnavigation.org/) dependencies 👾💜 
    ```sh
    npm install @react-navigation/native @react-navigation/native-stack 
    ```
@@ -132,7 +131,7 @@ Once there, you have created the app with all its independence... We continue wi
 
 ![Product Name Screen Shot3][product-screenshot3]
 
-* FIRST: file `.env`. Add data for firebase 
+* FIRST: file`.env` Add Keys for firebase.
 ```sh 
   API_KEY=AIzaSyAwlrn9-vlpgMg2UOKooQmcNLJE_YUcSg8
   AUTH_DOMAIN=tests-e7548.firebaseapp.com
