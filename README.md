@@ -48,7 +48,7 @@
   <h3 align="center">App <b>React Native</b> with <b>Expo</b> adn <b>Firebase</b></h3>
 
   <p align="center">
-    Simple javascript project with Expo js and React js
+    Simple javascript project with Expo / React Native / Firebase
     <br />
     <!--
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
@@ -69,35 +69,21 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Test the React Native project with [Expo Go](https://expo.dev/), using the [React Navigation](https://reactnavigation.org/) components as main templates for the development framework.
+This is a test project of the [React Native](https://reactnative.dev/) CRUD model, and it uses the [Expo Go](https://expo.dev/) framework for rendering, the backend is from Firebase using your credentials and access keys for said data
 
-* Latest version of node.js 
-* Installing projects for React Native with Expo
-```sh  
-  npx create-expo-app app-test-react-native
-```
-* You should implement DRY principles to the rest of your life :smile:
+functioning:
 
-### Backend and database credentials Firebase
-
-![Product Name Screen Shot3][product-screenshot3]
-
-* file `.env`. Add data for firebase 
-```sh 
-  API_KEY=AIzaSyAwlrn9-vlpgMg2UOKooQmcNLJE_YUcSg8
-  AUTH_DOMAIN=tests-e7548.firebaseapp.com
-  PROJECT_ID=tests-e7548
-  STORAGE_BUCKET=tests-e7548.appspot.com
-  MESSAGING_SENDER_ID=337426525540
-  APP_ID=1:337426525540:web:ea72b08d4fa64d7b445e71
-```
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+* Latest version of [NodeJS](https://nodejs.org/es)🍃🍃
+* Installing projects for [React Native](https://reactnative.dev/)⚛️ with Expo 🔼
+* 
 
 ### Built With Expo
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Expo is a development tool for creating experiences with gestures and interactive graphics, using JavaScript and React Native.
+
 ![Product Name Screen Shot2][product-screenshot2]
+
+It works with
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
@@ -106,70 +92,60 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Configuration in Git
+### installations in Command
 
-1. Clone from project repository in Git File Manager
+_To test this app, you need to create a new project in Expo Go With the following command._ 
+
+1. Installing NPM dependencies projects for [React Native](https://reactnative.dev/)⚛️ with Expo 🔼
    ```sh
-   git clone https://github.com/Freddx-web/APP-API-React-Native-Navigation.git
+   npx create-expo-app app-test-react
    ```
-2. Check project status
+   move to folder: `app-test-react`
    ```sh
-   git status 
+   cd app-test-react
    ```
-
-3. See previous versions
+2. Install Firebase
    ```sh
-   git log --pretty=oneline --abbrev-commit  
-   ```
-
-### installations 
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Install NPM dependencies DEV@
-   ```sh
-   npm install @expo/vector-icons @react-navigation/native-stack @react-navigation/native
+   npm install firebase
    ```
 3. Install NPM dependencies 
-  ```sh
-  
-  npm install expo expo-font expo-asset react-native react-dom react-native-rapi-ui react-native-safe-area-context react-native-screens 
-
-  ```
+   ```sh
+   npm install expo-constants expo-status-bar react-native-gesture-handler react-native-safe-area-context react-native-screens react-native-svg rn-emoji-keyboard 
+   ```
+4. Install NPM [React Navigation](https://reactnavigation.org/) dependencies 
+   ```sh
+   npm install @react-navigation/native @react-navigation/native-stack 
+   ```
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Since you have installed all the independence of the App. We proceed to raise the project in the Command.
 
 2. Install NPM dependencies DEV@
    ```sh
    npm start 
    ```
 
+# Backend and database credentials [Firebase](https://firebase.google.com/?hl=es)
+Once there, you have created the app with all its independence... We continue with the credential parameters to use the Firebase cloud configurations.
+
+![Product Name Screen Shot3][product-screenshot3]
+
+* FIRST: file `.env`. Add data for firebase 
+```sh 
+  API_KEY=AIzaSyAwlrn9-vlpgMg2UOKooQmcNLJE_YUcSg8
+  AUTH_DOMAIN=tests-e7548.firebaseapp.com
+  PROJECT_ID=tests-e7548
+  STORAGE_BUCKET=tests-e7548.appspot.com
+  MESSAGING_SENDER_ID=337426525540
+  APP_ID=1:337426525540:web:ea72b08d4fa64d7b445e71
+```
+⬆⬆⬆
+These are the credentials and keys for the backend/Firebase Database Access in the `.env` file
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
@@ -188,25 +164,6 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
