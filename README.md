@@ -63,22 +63,20 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
 
 ![Product Name Screen Shot][product-screenshot]
 
-Test the React Native project with [Expo Go](https://expo.dev/), using the [React Navigation](https://reactnavigation.org/) components as main templates for the development framework.
+This Project is a CRUD of products, which is registered and the data is consulted, through a mobile application.
 
-* Latest version of node.js 
-* Installing projects for React Native with Expo
-```sh  
-  npx create-expo-app app-test-react-native
-```
-* You should implement DRY principles to the rest of your life :smile:
+1. Creation and targeting of messages
+2. FCM BackEnd 
+3. Platform-level message transport 
+4. SDK on Device
+
+This diagram shows the basic functionality of how the app works with [Firebase](https://firebase.google.com/?hl=es)
 
 ![Product Name Screen Shot2][product-screenshot2]
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
 ### Built With
 
@@ -106,6 +104,15 @@ This section should list any major frameworks/libraries used to bootstrap your p
    ```sh
    git log --pretty=oneline --abbrev-commit  
    ```
+## requirement
+
+* Latest version of [NPM](https://www.npmjs.com/package/download)
+* Latest version of [node.js](https://nodejs.org/es) 🍃🍃🍃
+* Installing projects for [React Native with Expo](https://expo.dev/client)🔼
+
+
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+
 
 ### installations 
 
