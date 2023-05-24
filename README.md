@@ -64,6 +64,18 @@
 
 <!-- ABOUT THE PROJECT -->
 ### About The Project
+## Built With
+![Product Name Screen Shot3][product-screenshot3]
+
+[Expo GO](https://expo.dev/client)🔼is a development tool for creating experiences with gestures and interactive graphics, using JavaScript and [React Native](https://reactnative.dev/).⚛️
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## What is [Firebase](https://firebase.google.com/?hl=es) 🔥?
 Its essential function is to facilitate the creation of both web and mobile applications and their development, making the work faster, but without sacrificing the required quality.
 
@@ -82,18 +94,6 @@ This diagram shows the basic functionality of how the app works with [Firebase](
 
 ![Product Name Screen Shot2][product-screenshot2]
 
-### Built With
-
-![Product Name Screen Shot3][product-screenshot3]
-
-[Expo GO](https://expo.dev/client)🔼is a development tool for creating experiences with gestures and interactive graphics, using JavaScript and [React Native](https://reactnative.dev/).⚛️
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## requirement
 
