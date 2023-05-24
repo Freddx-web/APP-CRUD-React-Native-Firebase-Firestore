@@ -64,6 +64,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ### About The Project
+## [Firebase](https://firebase.google.com/?hl=es) 🔥
+Its essential function is to facilitate the creation of both web and mobile applications and their development, making the work faster, but without sacrificing the required quality.
+
+Its tools are varied and easy to use, considering that their grouping simplifies management tasks on the same platform. Its purposes can be divided into four groups: development, growth, monetization, and analytics. It is especially interesting so that developers do not need to spend so much time on the backend, both at the development and maintenance level.
 
 ![Product Name Screen Shot][product-screenshot]
 
