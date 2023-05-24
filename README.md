@@ -80,7 +80,9 @@ This diagram shows the basic functionality of how the app works with [Firebase](
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+![Product Name Screen Shot3][product-screenshot3]
+
+[Expo GO](https://expo.dev/client)🔼is a development tool for creating experiences with gestures and interactive graphics, using JavaScript and [React Native](https://reactnative.dev/).⚛️
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
@@ -89,67 +91,64 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Configuration in Git
-
-1. Clone from project repository in Git File Manager
-   ```sh
-   git clone https://github.com/Freddx-web/APP-API-React-Native-Navigation.git
-   ```
-2. Check project status
-   ```sh
-   git status 
-   ```
-
-3. See previous versions
-   ```sh
-   git log --pretty=oneline --abbrev-commit  
-   ```
 ## requirement
 
-* Latest version of [NPM](https://www.npmjs.com/package/download)
+* Latest version of [NPM](https://www.npmjs.com/package/download)⚡⚡
 * Latest version of [node.js](https://nodejs.org/es) 🍃🍃🍃
 * Installing projects for [React Native with Expo](https://expo.dev/client)🔼
 
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+These requirements are important for the operation of the app, since it is vital that the Node is the most up-to-date version for best performance and the NPM to implement the independence correctly.
 
 
 ### installations 
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_For the experience of using the app, it was suggested that you create a new project with React Native with Expo GO to use the latest current versions, with the following terminal commands._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Install NPM dependencies DEV@
+1. Create a new React Native project with Expo GO in commands
    ```sh
-   npm install @expo/vector-icons @react-navigation/native-stack @react-navigation/native
+   npx create-expo-app app-test-react
+   ```
+2. Install [Firebase](https://firebase.google.com/?hl=es) 🔥
+   ```sh
+   npm install firebase
    ```
 3. Install NPM dependencies 
   ```sh
-  
-  npm install expo expo-font expo-asset react-native react-dom react-native-rapi-ui react-native-safe-area-context react-native-screens 
-
+  npm install dotenv expo-constants expo-status-bar react-native-gesture-handle react-native-safe-area-context react-native-screens react-native-svg 
+rn-emoji-keyboard 
   ```
+  4. Install NPM dependencies DEV@
+  ```sh
+  npm install @react-navigation/native @react-navigation/native-stack
+   ```
+   
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Starting the commands
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-2. Install NPM dependencies DEV@
+1. Modify the `.env` file, with the following backend/database access parameters
    ```sh
-   npm start 
+   API_KEY = AIzaSyAwlrn9-vlpgMg2UOKooQmcNLJE_YUcSg8
+   AUTH_DOMAIN = tests-e7548.firebaseapp.com
+   PROJECT_ID = tests-e7548
+   STORAGE_BUCKET = tests-e7548.appspot.com
+   MESSAGING_SENDER_ID = 337426525540
+   APP_ID = 1:337426525540:web:ea72b08d4fa64d7b445e71
    ```
-   
+2. start application
+  ```sh
+  npm start
+   ```
+ 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
