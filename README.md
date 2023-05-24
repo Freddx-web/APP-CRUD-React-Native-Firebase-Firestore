@@ -63,16 +63,16 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-### About The Project
 ## Built With
-![Product Name Screen Shot3][product-screenshot3]
-
 [Expo GO](https://expo.dev/client)🔼is a development tool for creating experiences with gestures and interactive graphics, using JavaScript and [React Native](https://reactnative.dev/).⚛️
+![Product Name Screen Shot3][product-screenshot3]
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+
+[Expo GO](https://expo.dev/client)🔼 provides a layer on top of the [React Native](https://reactnative.dev/).⚛️ APIs to make them easier to use and manage. It also provides tools that make it easy to launch and test [React Native](https://reactnative.dev/).⚛️ apps. Finally, it provides services that are normally only available when native and third-party UI components are installed. All are available through the Expo <b>SDK</b>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
