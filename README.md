@@ -74,7 +74,6 @@ This diagram shows the basic functionality of how the app works with [Firebase](
 
 These requirements are important for the operation of the app, since it is vital that the Node is the most up-to-date version for best performance and the NPM to implement the independence correctly.
 
-
 ### installations 
 
 _For the experience of using the app, it was suggested that you create a new project with React Native with Expo GO to use the latest current versions, with the following terminal commands._
