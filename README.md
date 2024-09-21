@@ -65,7 +65,6 @@ This diagram shows the basic functionality of how the app works with [Firebase](
 
 ![Product Name Screen Shot2][product-screenshot2]
 
-
 ## requirement
 
 * Latest version of [NPM](https://www.npmjs.com/package/download)⚡⚡
